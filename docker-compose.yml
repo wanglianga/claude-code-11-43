@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    image: campus-meal-dq-allergen:latest
+    container_name: campus-meal-dq
+    ports:
+      - "8080:8080"
+    restart: unless-stopped

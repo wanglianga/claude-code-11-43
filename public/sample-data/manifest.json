@@ -1,0 +1,23 @@
+{
+  "manifestVersion": "1.0.0",
+  "generatedAt": "2026-09-10T18:00:00+08:00",
+  "description": "校园供餐多源数据样例清单（虚构数据，仅用于分析演示）",
+  "mealWindows": [
+    { "schoolId": "*", "window": "breakfast", "start": "06:30", "end": "08:30" },
+    { "schoolId": "*", "window": "lunch", "start": "11:00", "end": "13:00" },
+    { "schoolId": "*", "window": "dinner", "start": "17:00", "end": "19:00" }
+  ],
+  "batches": [
+    { "batchId": "sup-a-1", "sourceType": "supplier_items", "schoolId": "A", "fileName": "schoolA/supplier_items_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-01T08:00:00+08:00", "expectedRows": 12, "status": "ARRIVED", "notes": "甲校首批供应商成分（商品条码）" },
+    { "batchId": "sup-a-2", "sourceType": "supplier_items", "schoolId": "A", "fileName": "schoolA/supplier_items_20260910_late.csv", "dataDate": "2026-09-02", "updatedAt": "2026-09-10T17:30:00+08:00", "expectedRows": 2, "status": "ARRIVED", "notes": "晚到补发批次：含编码复用（同一条码对应不同商品）" },
+    { "batchId": "sup-b-1", "sourceType": "supplier_items", "schoolId": "B", "fileName": "schoolB/supplier_items_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-01T09:10:00+08:00", "expectedRows": 10, "status": "ARRIVED", "notes": "乙校供应商成分（自编货号）" },
+    { "batchId": "rec-a-1", "sourceType": "recipes", "schoolId": "A", "fileName": "schoolA/recipes_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-01T07:30:00+08:00", "expectedRows": 13, "status": "ARRIVED", "notes": "甲校菜谱（标准配料）" },
+    { "batchId": "rec-b-1", "sourceType": "recipes", "schoolId": "B", "fileName": "schoolB/recipes_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-01T07:40:00+08:00", "expectedRows": 9, "status": "ARRIVED", "notes": "乙校菜谱" },
+    { "batchId": "kit-a-1", "sourceType": "kitchen_usage", "schoolId": "A", "fileName": "schoolA/kitchen_usage_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-05T20:00:00+08:00", "expectedRows": 17, "status": "ARRIVED", "notes": "甲校厨房实际用料（内部简称，含计划/实际标记）" },
+    { "batchId": "kit-b-1", "sourceType": "kitchen_usage", "schoolId": "B", "fileName": "schoolB/kitchen_usage_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-05T20:10:00+08:00", "expectedRows": 11, "status": "ARRIVED", "notes": "乙校厨房用料 9/1-9/5" },
+    { "batchId": "kit-b-2", "sourceType": "kitchen_usage", "schoolId": "B", "fileName": "schoolB/kitchen_usage_20260908.csv", "dataDate": "2026-09-08", "updatedAt": null, "expectedRows": 6, "status": "PENDING", "notes": "乙校 9/8 厨房批次尚未到齐" },
+    { "batchId": "meal-1", "sourceType": "meal_sessions", "schoolId": "*", "fileName": "meal/meal_sessions_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-05T21:00:00+08:00", "expectedRows": 14, "status": "ARRIVED", "notes": "餐次日志（窗口与时间）" },
+    { "batchId": "meal-2", "sourceType": "meal_servings", "schoolId": "*", "fileName": "meal/meal_servings_20260901.csv", "dataDate": "2026-09-01", "updatedAt": "2026-09-05T21:05:00+08:00", "expectedRows": 24, "status": "ARRIVED", "notes": "学生领餐记录（匿名学号）" },
+    { "batchId": "diet-1", "sourceType": "diet_restrictions", "schoolId": "*", "fileName": "diet/restrictions_20260901.json", "dataDate": "2026-09-01", "updatedAt": "2026-09-01T10:00:00+08:00", "expectedRows": 13, "status": "ARRIVED", "notes": "校医维护的饮食限制（匿名学号）" }
+  ]
+}

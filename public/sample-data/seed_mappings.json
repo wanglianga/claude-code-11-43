@@ -1,0 +1,53 @@
+{
+  "mappingVersion": "seed-v1",
+  "ruleVersion": "rules-v1",
+  "updatedAt": "2026-09-06T12:00:00+08:00",
+  "description": "随样例提供的初始映射：精确编码自动对应 + 已批准别名 + 少量人工确认决定；未列出的条目由引擎生成待确认候选或保持未知",
+  "supplierMappings": [
+    { "schoolId": "A", "supplierCode": "6901001000017", "stdId": "SI001", "decision": "APPROVED_ALIAS", "note": "条码精确对应（注意晚到批次的编码复用风险）" },
+    { "schoolId": "A", "supplierCode": "6901001000024", "stdId": "SI002", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000031", "stdId": "SI003", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000048", "stdId": "SI004", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000055", "stdId": "SI005", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000062", "stdId": "SI006", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000079", "stdId": "SI007", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000086", "stdId": "SI008", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000093", "stdId": "SI009", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "supplierCode": "6901001000109", "stdId": "SI010", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-001", "stdId": "SI001", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-002", "stdId": "SI002", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-003", "stdId": "SI003", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-004", "stdId": "SI004", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-005", "stdId": "SI005", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-006", "stdId": "SI006", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-007", "stdId": "SI007", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-008", "stdId": "SI008", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-009", "stdId": "SI009", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "supplierCode": "B-SP-010", "stdId": "SI002", "decision": "CONFIRMED", "note": "餐饮桶装酱油，名称/规格不同但成分一致，分析师确认复用同一标准原料" }
+  ],
+  "kitchenMappings": [
+    { "schoolId": "A", "kitchenAlias": "高筋粉", "stdId": "SI001", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "鸡蛋", "stdId": "SI003", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "三文鱼块", "stdId": "SI007", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "大虾", "stdId": "SI008", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "东北米", "stdId": "SI006", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "花生压榨油", "stdId": "SI005", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "牛奶", "stdId": "SI004", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "玉米生粉", "stdId": "SI009", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "炒熟芝麻", "stdId": "SI010", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "A", "kitchenAlias": "酱油", "stdId": "SI002", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "面粉", "stdId": "SI001", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "鸡蛋", "stdId": "SI003", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "酱油", "stdId": "SI002", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "花生油", "stdId": "SI005", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "三文鱼", "stdId": "SI007", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "大米", "stdId": "SI006", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "虾", "stdId": "SI008", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "牛奶", "stdId": "SI004", "decision": "APPROVED_ALIAS" },
+    { "schoolId": "B", "kitchenAlias": "燕麦奶", "stdId": "SI004", "decision": "CONFIRMED", "note": "名称候选确认：厨房实际领用的燕麦奶暂按乳制品口径管理（分析师决定，可复核）" }
+  ],
+  "studentSessionMappings": [
+    { "studentAnonId": "S-1001", "sessionId": "MS-A-0901-L", "decision": "APPROVED_ALIAS", "note": "由领餐记录建立的学号-餐次对应，样例中作为已批准映射演示" },
+    { "studentAnonId": "S-1008", "sessionId": "MS-B-0901-L", "decision": "APPROVED_ALIAS" }
+  ]
+}

@@ -1,0 +1,12 @@
+[
+  { "stdId": "SI001", "name": "小麦面粉", "category": "谷物", "allergens": ["麸质"], "baseUnit": "kg" },
+  { "stdId": "SI002", "name": "大豆酱油", "category": "调味品", "allergens": ["大豆", "麸质"], "baseUnit": "kg" },
+  { "stdId": "SI003", "name": "鸡蛋", "category": "蛋奶", "allergens": ["蛋"], "baseUnit": "kg" },
+  { "stdId": "SI004", "name": "纯牛奶", "category": "蛋奶", "allergens": ["乳"], "baseUnit": "L" },
+  { "stdId": "SI005", "name": "花生油", "category": "油脂", "allergens": ["花生"], "baseUnit": "L" },
+  { "stdId": "SI006", "name": "大米", "category": "谷物", "allergens": [], "baseUnit": "kg" },
+  { "stdId": "SI007", "name": "三文鱼", "category": "水产", "allergens": ["鱼"], "baseUnit": "kg" },
+  { "stdId": "SI008", "name": "基围虾", "category": "水产", "allergens": ["甲壳类"], "baseUnit": "kg" },
+  { "stdId": "SI009", "name": "玉米淀粉", "category": "谷物", "allergens": [], "baseUnit": "kg" },
+  { "stdId": "SI010", "name": "白芝麻", "category": "配料", "allergens": ["芝麻"], "baseUnit": "kg" }
+]

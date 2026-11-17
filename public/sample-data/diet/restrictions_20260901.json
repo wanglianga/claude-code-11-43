@@ -1,0 +1,19 @@
+{
+  "sourceVersion": "2026-09-01",
+  "updatedAt": "2026-09-01T10:00:00+08:00",
+  "restrictions": [
+    { "studentAnonId": "S-1001", "schoolId": "A", "avoidAllergens": ["蛋"], "note": "鸡蛋过敏", "effectiveFrom": "2026-08-15", "effectiveTo": null },
+    { "studentAnonId": "S-1002", "schoolId": "A", "avoidAllergens": ["麸质", "芝麻"], "note": "乳糜泻+芝麻过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1003", "schoolId": "A", "avoidAllergens": ["鱼", "甲壳类"], "note": "水产过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1004", "schoolId": "A", "avoidAllergens": ["乳"], "note": "牛奶蛋白过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1005", "schoolId": "A", "avoidAllergens": ["花生"], "note": "花生过敏", "effectiveFrom": "2026-09-02", "effectiveTo": null },
+    { "studentAnonId": "S-1006", "schoolId": "A", "avoidAllergens": ["芝麻"], "note": "芝麻过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1007", "schoolId": "A", "avoidAllergens": ["鱼"], "note": "鱼类过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1008", "schoolId": "B", "avoidAllergens": ["蛋"], "note": "鸡蛋过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1009", "schoolId": "B", "avoidAllergens": ["麸质"], "note": "麸质过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1010", "schoolId": "B", "avoidAllergens": ["乳"], "note": "乳制品过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1011", "schoolId": "B", "avoidAllergens": [], "note": "登记记录但未填写禁忌过敏原", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-1012", "schoolId": "B", "avoidAllergens": ["鱼"], "note": "鱼类过敏", "effectiveFrom": "2026-08-20", "effectiveTo": null },
+    { "studentAnonId": "S-9999", "schoolId": "B", "avoidAllergens": ["大豆"], "note": "样例期内无领餐记录的学生", "effectiveFrom": "2026-08-20", "effectiveTo": null }
+  ]
+}

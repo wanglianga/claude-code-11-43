@@ -1,0 +1,12 @@
+usage_id,usage_date,kitchen_alias,qty,unit,window,status,recipe_id
+K-B-01,2026-09-01,面粉,4,kg,lunch,ACTUAL,R-B-01
+K-B-02,2026-09-01,鸡蛋,1,kg,lunch,ACTUAL,R-B-01
+K-B-03,2026-09-01,酱油,1.5,kg,lunch,ACTUAL,R-B-02
+K-B-04,2026-09-01,花生油,0.3,L,lunch,ACTUAL,R-B-02
+K-B-05,2026-09-01,三文鱼,2.5,kg,lunch,ACTUAL,R-B-03
+K-B-06,2026-09-01,大米,8,kg,lunch,ACTUAL,R-B-04
+K-B-07,2026-09-01,虾,2,kg,lunch,ACTUAL,R-B-05
+K-B-08,2026-09-01,牛奶,5,L,breakfast,ACTUAL,R-B-06
+K-B-09,2026-09-01,未知香料,0.1,kg,dinner,ACTUAL,R-B-07
+K-B-10,2026-09-01,面粉,2,kg,dinner,ACTUAL,R-B-01
+K-B-11,2026-09-01,燕麦奶,1,L,breakfast,ACTUAL,R-B-06
